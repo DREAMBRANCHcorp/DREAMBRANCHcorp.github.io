@@ -69,6 +69,7 @@ img {
 .navbar {
     z-index: 15;
     width: 100%;
+    top: 0;
     position: sticky;
     background-color: black;
     border-color: white;
@@ -259,7 +260,7 @@ b {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-1%);
     }
     100% {
         transform: translateY(0);
