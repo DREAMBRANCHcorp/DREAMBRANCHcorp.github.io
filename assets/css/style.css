@@ -52,12 +52,6 @@ img {
     left: 0px;
 }
 
-.banner-1 {
-    position: relative;
-    top: 0px;
-    left: 0px;
-}
-
 .banner-2 {
     position: absolute;
     top: 0px;
@@ -260,7 +254,7 @@ b {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-1%);
+        transform: translateY(-2%);
     }
     100% {
         transform: translateY(0);
@@ -273,7 +267,6 @@ b {
 
 .banner-float {
     animation: float 3s ease-in-out infinite;
-    transform: translate(-50%, -50%) scale(1.35);
 }
 
 
